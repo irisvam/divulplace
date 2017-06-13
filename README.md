@@ -1,2 +1,2 @@
-# http://irisvam.github.io/divulplace
+# divulplace
 Teste de Repositório
