@@ -110,7 +110,7 @@ header.carousel .fill {
 .text-muted, .section-subheading {
   color: #777777;
 }
-.container  ul {
+.container  ul.muted {
 color: #777777;
 text-align: left;
 }
