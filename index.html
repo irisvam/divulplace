@@ -1,12 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>DivulPlace</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DivulPlace</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/divulplace.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
 </head>
-<body>
-  <div>
-    <h1>Hellow World!</h1>
-  </div>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">DivulPlace</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#page-top">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Sobre</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Serviços</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contato</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#more">Mais</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+	
+	<!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDkwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzkwMHg1MDAvYXV0by8jNzc3OiM1NTUvdGV4dDpGaXJzdCBzbGlkZQpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1Yzc5NDQzYWE4IHRleHQgeyBmaWxsOiM1NTU7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6NDVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTVjNzk0NDNhYTgiPjxyZWN0IHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjNzc3Ii8+PGc+PHRleHQgeD0iMzA4LjI5Njg3NSIgeT0iMjcwLjEiPkZpcnN0IHNsaWRlPC90ZXh0PjwvZz48L2c+PC9zdmc+');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDkwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzkwMHg1MDAvYXV0by8jNjY2OiM0NDQvdGV4dDpTZWNvbmQgc2xpZGUKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNWM3OTQ0NGM1MSB0ZXh0IHsgZmlsbDojNDQ0O2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjQ1cHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1Yzc5NDQ0YzUxIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiIvPjxnPjx0ZXh0IHg9IjI2NC45NTMxMjUiIHk9IjI3MC4xIj5TZWNvbmQgc2xpZGU8L3RleHQ+PC9nPjwvZz48L3N2Zz4=');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDkwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzkwMHg1MDAvYXV0by8jNTU1OiMzMzMvdGV4dDpUaGlyZCBzbGlkZQpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1Yzc5NDQ1MThiIHRleHQgeyBmaWxsOiMzMzM7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6NDVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTVjNzk0NDUxOGIiPjxyZWN0IHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjNTU1Ii8+PGc+PHRleHQgeD0iMjk4LjMyMDMxMjUiIHk9IjI3MC4xIj5UaGlyZCBzbGlkZTwvdGV4dD48L2c+PC9nPjwvc3ZnPg==');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+	
+	<!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="section-heading">Sobre</h2>
+                </div>
+            </div>
+			<div class="row row-break">
+                <div class="col-md-8">
+					<h4>Nossa marca</h4>
+                    <p class="text-muted">
+					A DivulPlace foi formada com o propósito de apresentar serviços diferenciados para que empreendedores, consultores, lojistas e pessoas que possuem um trabalho próprio centralizem a divulgação dos seus produtos e serviços através de nossa plataforma online, sendo uma empresa focada em qualidade, respeito, comprometimento e transparência com todos os nossos clientes.
+					</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="timeline-image">
+						<img class="img-circle img-responsive" src="img/500x300.png" alt="">
+					</div>
+                </div>
+            </div>
+			<div class="row text-center row-break">
+				<div class="col-md-4">
+					<h4 class="service-heading">Missão</h4>
+				</div>
+				<div class="col-md-4">
+					<div class="timeline-image">
+						<img class="img-circle img-responsive" src="img/500x300.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<p class="text-muted">
+						A DivulPlace tem como Missão levar ao sucesso profissional e pessoal todos os nossos clientes e divulgadores, através da propensão significativa de seus clientes, disponibilizando serviços de qualidade para que todos consigam conquistar seus objetivos através de nossa empresa.
+					</p>
+				</div>
+			</div>
+			<div class="row text-center row-break">
+				<div class="col-md-4">
+					<div class="timeline-image">
+						<img class="img-circle img-responsive" src="img/500x300.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h4 class="service-heading">Visão</h4>
+				</div>
+				<div class="col-md-4">
+					<p style="margin-top: 70px;"></p>
+					<p class="text-muted">
+						Disponibilizar os melhores serviços online para o crescimento de nossos clientes e divulgadores.
+					</p>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4">
+					<h4 class="service-heading">Valores</h4>
+				</div>
+				<div class="col-md-4">
+					<div class="timeline-image">
+						<img class="img-circle img-responsive" src="img/500x300.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<p class="text-muted">
+						Para os nossos Clientes e divulgadores – Serviços de qualidade, comprometimento, transparência e disponibilidade.
+					</p>
+					<ul>
+						<li>Transparência e ética – Como alicerce da empresa.</li>
+						<li>Responsabilidade – Em manter todos os serviços sempre disponíveis.</li>
+						<li>Inovação – Sempre em busca de aperfeiçoar os serviços disponibilizados</li>
+					</ul>
+				</div>
+			</div>
+        </div>
+    </section>
+	
+	<!-- Services Section -->
+    <section id="services" class="bg-light-blue">
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-6">
+                    <h2 class="section-heading">Serviços</h2>
+                </div>
+            </div>
+            <div class="row text-center row-break">
+                <div class="col-md-4">
+					<div class="timeline-image">
+						<img class="img-responsive" src="img/500x300.png" alt="">
+					</div>
+                    <h4>Portifólio Digital</h4>
+                    <p class="text-muted">
+						A DivulPlace tem o prazer de apresentar O "Portfólio Digital", um serviço de qualidade e totalmente profissional, feito por uma equipe especializada com o objetivo de centralizar seus negócios em um único local on-line. “Clique aqui para mais informações".
+					</p>
+                </div>
+                <div class="col-md-4">
+					<div class="timeline-image">
+						<img class="img-responsive" src="img/500x300.png" alt="">
+					</div>
+                    <h4>Folders e Flyers</h4>
+                    <p class="text-muted">
+						Disponibilizamos uma ferramenta on-line com modelos prontos onde poderá em poucos momentos personalizar um folder ou flyer com seus produtos e serviços gerando um arquivo que poderá ser mandado direto para a gráfica de sua preferência.
+					</p>
+                </div>
+                <div class="col-md-4">
+					<div class="timeline-image">
+						<img class="img-responsive" src="img/500x300.png" alt="">
+					</div>
+                    <h4>Cartão de Visitas</h4>
+                    <p class="text-muted">Disponibilizamos uma ferramenta on-line com modelos prontos onde poderá rapidamente personalizar seu cartão de visitas e gerar um arquivo que pode ser utilizado por sua gráfica de preferência.</p>
+                </div>
+            </div>
+			<div class="row text-center row-break">
+                <div class="col-md-4">
+					<span class="fa-stack fa-5x">
+						<i class="fa fa-circle fa-stack-2x text-primary"></i>
+						<i class="fa fa-money fa-stack-1x fa-inverse"></i>
+					</span>
+                </div>
+                <div class="col-md-4">
+                    <h4>Oportunidade de Negócio</h4>
+                    <p class="text-muted">
+						Seja um de nossos Divulgadores, ao indicar nossos serviços você além de receber comissões por cada cliente cadastrado poderá receber também bônus mensais, trazendo uma renda adicional para você e sua família.
+					</p>
+                </div>
+                <div class="col-md-4">
+					<span class="fa-stack fa-5x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-comments-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+            </div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="timeline-image">
+						<img class="img-responsive" src="img/750x450.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="section-heading">Contato</h2>
+                </div>
+            </div>
+			<div class="row text-center">
+				<div class="col-lg-12">
+                    <h3 class="section-subheading">Em caso de dúvidas, não hesite em nos enviar um recado.</h3>
+				</div>
+			</div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-offset-3 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Seu nome *" id="name" required data-validation-required-message="Por favor digite seu nome.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Seu e-mail *" id="email" required data-validation-required-message="Por favor digite seu e-mail.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+						</div>
+						<div class="row">
+                            <div class="col-md-offset-3 col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Sua mensagem *" id="message" required data-validation-required-message="Por favor digite uma mensagem."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Section -->
+    <section id="more">
+		<!-- Clients Aside -->
+		<aside class="clients">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<a href="#">
+							<img src="img/logos/200x50.jpg" class="img-responsive img-centered" alt="">
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<a href="#">
+							<img src="img/logos/200x50.jpg" class="img-responsive img-centered" alt="">
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<a href="#">
+							<img src="img/logos/200x50.jpg" class="img-responsive img-centered" alt="">
+						</a>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<a href="#">
+							<img src="img/logos/200x50.jpg" class="img-responsive img-centered" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a>
+                        </li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a>
+                        </li>
+						<li><a href="#"><i class="fa fa-pinterest-p"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Política de Privacidade</a>
+                        </li>
+                        <li><a href="#">Termos de Uso</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+	
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+	
+    <!-- Theme JavaScript -->
+    <script src="js/divulplace.js"></script>
+	
 </body>
+
 </html>
