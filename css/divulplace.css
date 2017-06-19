@@ -8,13 +8,24 @@ body {
 }
 
 .navbar-custom {
-  background-color: #222222;
+  background-color: #1f4495;
   border-color: transparent;
+}
+.navbar-brand {
+	padding: 0px 15px;
 }
 .navbar-custom .navbar-brand {
   color: #337ab7;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
+.navbar-custom .navbar-brand span.divulplace-brand {
+	margin-top: 5px;
+	display: block;
+	width: 160px;
+	height: 41px;
+	background: #1f4495 url(../img/logos/divulplace_1l.png) repeat-x;
+	background-size: 100%;
+} 
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -77,16 +88,31 @@ body {
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
   }
+  .navbar-custom .navbar-brand span.divulplace-brand {
+	margin-top: 0px;
+	display: block;
+	width: 200px;
+	height: 65px;
+	background: #1f4495 url(../img/logos/divulplace_2l.png) repeat-x;
+	background-size: 100%;
+} 
 }
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: #1f4495;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
+  .navbar-custom.affix .navbar-brand span.divulplace-brand {
+	margin-top: 0px;
+	width: 170px;
+	height: 41px;
+	background: #1f4495 url(../img/logos/divulplace_1l.png) repeat-x;
+	background-size: 100%;
+  } 
 }
 /* Home Page Carousel */
 
@@ -414,7 +440,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 section {
-  padding: 100px 0;
+  padding: 75px 0;
 }
 section h2.section-heading {
   margin-top: 0;
@@ -443,7 +469,7 @@ h4.service-heading {
 	margin-bottom: 40px;
 }
 
-footer, section#services {
+section#services {
   background-color: #85c5ce;
   background-image: url('../img/background/001.jpg');
   background-position: center;
@@ -506,7 +532,18 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 
-footer {
+.thoughts-section {
+  background-color: #75add2;
+}
+
+.thoughts-section  blockquote p{
+	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+
+footer.end-section {
   background-color: #e5f0f5; 
   padding: 25px 0;
   text-align: center;
