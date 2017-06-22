@@ -8,7 +8,7 @@ body {
 }
 
 .navbar-custom {
-  background-color: #1f4495;
+  background-color: #344869;
   border-color: transparent;
 }
 .navbar-brand {
@@ -23,7 +23,7 @@ body {
 	display: block;
 	width: 160px;
 	height: 41px;
-	background: #1f4495 url(../img/logos/divulplace_1l.png) repeat-x;
+	background: #344869 url(../img/logos/divulplace_1l.png) repeat-x;
 	background-size: 100%;
 } 
 
@@ -93,14 +93,14 @@ body {
 	display: block;
 	width: 200px;
 	height: 65px;
-	background: #1f4495 url(../img/logos/divulplace_2l.png) repeat-x;
+	background: #344869 url(../img/logos/divulplace_2l.png) repeat-x;
 	background-size: 100%;
 } 
 }
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #1f4495;
+    background-color: #344869;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -110,7 +110,7 @@ body {
 	margin-top: 0px;
 	width: 170px;
 	height: 41px;
-	background: #1f4495 url(../img/logos/divulplace_1l.png) repeat-x;
+	background: #344869 url(../img/logos/divulplace_1l.png) repeat-x;
 	background-size: 100%;
   } 
 }
@@ -192,7 +192,6 @@ header.carousel .fill {
   z-index: 100;
   color: white;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
@@ -302,12 +301,9 @@ header.carousel .fill {
     padding: 0 100px 20px 20px;
   }
 }
-section#about .text-muted  {
-	color: #777777;
-}
 
 ul.valores {
-	color: #777777;
+	color: #9c9c9c;
 	text-align: left;
 }
 .text-muted {
@@ -473,18 +469,11 @@ h4.service-heading {
 	margin-bottom: 40px;
 }
 
-section#about {
-  background-color: #88c9cf;
-  background-image: url('../img/background/blue_soft_2.png');
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 section#more {
  background-color: #2a3a56;
 }
 
-section#services  {
+section#services, section#about  {
   background-color: #2a3a56;
   background-image: url('../img/background/blue_tech_2.png');
   background-position: center;
@@ -549,8 +538,7 @@ section#contact .text-danger {
 }
 
 .thoughts-section {
-  background-color: #75add2;
-  
+  background-color: #456581;
 }
 
 .thoughts-section  blockquote p{
@@ -558,11 +546,12 @@ section#contact .text-danger {
 	font-size: 1.5em;
 	color: #fff;
 }
-
+blockquote footer {
+  color: #9c9c9c;
+}
 
 footer.end-section {
   background-color: #293955;
-  background-image: url('../img/background/blue_tech.jpg');
   padding: 25px 0;
   text-align: center;
   color: #fff;
