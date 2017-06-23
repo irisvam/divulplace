@@ -27,7 +27,8 @@ body {
 	background-size: 100%;
 } 
 
-.navbar-right{
+.navbar-right {
+	border-top: 2px solid #9c9c9c;
 	text-align: center;
 }
 
@@ -40,7 +41,7 @@ body {
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
-.navbar-custom .navbar-toggle {
+.navbar-custom .navbar-toggle, .btn-bar {
   background-color: #337ab7;
   border-color: #337ab7;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -102,12 +103,15 @@ body {
 	background: #344869 url(../img/logos/divulplace_2l.png) repeat-x;
 	background-size: 100%;
   }
+  .navbar-right {
+    border-top: none;
+  }
 }
 @media (min-width: 992px) {
-.navbar-custom {
+  .navbar-custom {
     font-size: 14px;
   }
-.navbar-nav {
+  .navbar-nav {
     margin-left: 100px;
   }
   .navbar-right {
@@ -161,12 +165,10 @@ header.carousel .fill {
     background-size: cover;
 }
 
-button {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-}
-button:hover {
-  background-color: #fff;
+.btn-bar {
+    margin-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .text-muted, .section-subheading {
@@ -400,7 +402,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
   color: white;
   background-color: #204d74;
-  border-color: #f6bf01;
+  border-color: #9bcaf2;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -475,6 +477,10 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl .badge {
   color: #337ab7;
   background-color: white;
+}
+.btn-service {
+  margin: 20px;
+  padding: 8px 30px;
 }
 section {
   padding: 75px 0;
