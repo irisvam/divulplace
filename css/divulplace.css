@@ -1,6 +1,6 @@
 :root {
-  --cornav: #000;
-  --corprimary: #337ab7;
+  --cornav: #4dc8f6;
+  --corprimary: #03b4f6;
   --corprimaryhover: #204d74;
   --cormaintxt: #107dac;
   --corgeraltxt: #9c9c9c;
@@ -30,7 +30,7 @@ body {
 	display: block;
 	width: 155px;
 	height: 41px;
-	background: url(../img/logos/imgpsh_divulplace_fullsize_wb.png) repeat-x;
+	background: url(../img/logos/imgpsh_divulplace_fullsize.png) repeat-x;
 	background-size: 100%;
 } 
 
@@ -104,7 +104,7 @@ body {
 	display: block;
 	width: 195px;
 	height: 65px;
-	background: url(../img/logos/imgpsh_divulplace_fullsize_wb.png) repeat-x;
+	background: url(../img/logos/imgpsh_divulplace_fullsize.png) repeat-x;
 	background-size: 100%;
   }
   .navbar-right {
@@ -136,7 +136,7 @@ body {
 	margin-top: 0px;
 	width: 170px;
 	height: 41px;
-	background: url(../img/logos/imgpsh_divulplace_fullsize_wb.png) repeat-x;
+	background: url(../img/logos/imgpsh_divulplace_fullsize.png) repeat-x;
 	background-size: 100%;
   } 
 }
@@ -536,13 +536,13 @@ section#services, section#about  {
 }
 
 section#contact {
-  background-color: #000;
+  background-color: #107dac;
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
 section#contact .section-heading {
-  color: var(--cormaintxt);
+  color: #fff;
 }
 section#contact .form-group {
   margin-bottom: 25px;
