@@ -1,12 +1,19 @@
 :root {
-  --cornav: #4dc8f6;
+  --corbgnav: #4dc8f6;
   --corprimary: #03b4f6;
   --corprimaryhover: #204d74;
   --cormaintxt: #107dac;
+  --corbgcontatc: #107dac;
+  --cortxtcontatc: #fff;
   --corgeraltxt: #9c9c9c;
-  --cormainfundo: #fff; /*d2ebf5*/
+  --cormainfundo: #fff;
+  --cortxtlink: #fff;
+  
   --corfooter: #d9f5ff;
-  --corcontraste: #6eb6d5; /*#107dac*/
+  --corcontraste: #6eb6d5;
+  
+  --corbgsocial: #fff;
+  --cortxtsocial: #107dac;
 }
 html,
 body {
@@ -18,7 +25,7 @@ body {
 }
 
 .navbar-custom {
-  background-color: var(--cornav);
+  background-color: var(--corbgnav);
   border-color: transparent;
 }
 .navbar-brand {
@@ -47,7 +54,7 @@ body {
   border-color: var(--corprimary);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--cortxtlink);
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:hover,
@@ -62,7 +69,7 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #fff;
+  color: var(--cortxtlink);
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -71,12 +78,12 @@ body {
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
-  color: #fff;
+  color: var(--cortxtlink);
   background-color: var(--corprimary);
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: #fff;
+  color: var(--cortxtlink);
   background-color: var(--corprimary);
 }
 
@@ -128,7 +135,7 @@ body {
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: var(--cornav);
+    background-color: var(--corbgnav);
     padding: 10px 0;
 	font-size: 10px;
   }
@@ -177,7 +184,7 @@ header.carousel .fill {
 }
 
 .btn-bar {
-	color: #fff;
+	color: var(--cortxtlink);
     margin-top: 8px;
     padding-left: 8px;
     padding-right: 8px;
@@ -400,7 +407,7 @@ h6 {
   margin: 0 auto;
 }
 .btn-primary {
-  color: #fff;
+  color: var(--cortxtlink);
   background-color: var(--corprimary);
   border-color: var(--corprimary);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -443,7 +450,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: var(--cormaintxt);
 }
 .btn-xl {
-  color: #fff;
+  color: var(--cortxtlink);
   background-color: var(--corprimary);
   border-color: #2e6da4;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -535,13 +542,13 @@ section#services, section#about  {
 }
 
 section#contact {
-  background-color: #107dac;
+  background-color: var(--corbgcontatc);
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
 section#contact .section-heading {
-  color: var(--cormaintxt);
+  color: var(--cortxtcontatc);
 }
 section#contact .form-group {
   margin-bottom: 25px;
@@ -594,7 +601,7 @@ section#contact .text-danger {
   background-color: var(--corcontraste);
 }
 
-.thoughts-section  blockquote p{
+.thoughts-section  blockquote p {
 	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 	font-size: 1.5em;
 	color: #fff;
@@ -627,13 +634,13 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #fff;
+  background-color: var(--corbgsocial);
+  color: var(--cortxtsocial);
   height: 40px;
   width: 40px;
   border-radius: 100%;
   font-size: 20px;
   line-height: 40px;
-  color: var(--cormaintxt);
   outline: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
