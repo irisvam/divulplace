@@ -9,6 +9,20 @@
     <meta name="author" content="">
 
     <title>DivulPlace</title>
+	
+	<script>
+		/* <![CDATA[ */
+		$(document).ready(function(){
+			
+			loadCSS('css/divulplace.css');
+		});
+		
+		function loadCSS(url) {
+			
+			document.getElementById("maincss").href = url;
+		}
+		/* ]]> */
+	</script>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -21,7 +35,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Theme CSS -->
-    <link href="css/divulplace.css" rel="stylesheet">
+    <link id="maincss" href="css/divulplace.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -67,12 +81,20 @@
                     </li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
+					
 					<li>
 						<button class="btn btn-bar" href="#">Cadastrar</button>
 					</li>
-                    <li>
-                        <a class="page-scroll" href="#">Login</a>
-                    </li>
+					<li class="dropdown"> 
+						<a href="#" class="dropdown-toggle" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Ações <span class="caret"></span> </a> 
+						<ul class="dropdown-menu" aria-labelledby="drop1"> 
+							<li><a href="#" onclick="loadCSS('css/divulplace.css')">Modelo 01</a></li> 
+							<li><a href="#" onclick="loadCSS('css/divulplace-soft-blue.css')">Modelo 02</a></li> 
+							<li><a href="#" onclick="loadCSS('css/divulplace-hard-blue.css')">Modelo 03</a></li> 
+							<li role="separator" class="divider"></li> 
+							<li><a href="#">Login</a></li> 
+						</ul>
+					</li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
