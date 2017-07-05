@@ -6,8 +6,8 @@
 	--corborbtnnav: #9bcaf2;
 	--cortxtnavativo: #fff;
 	--cortxtnav: #fff;
-	--bgcarousel1: #0d6f99 url('../img/background/divulplace_bg.jpg');
-	--bgcarousel2: #36454d url('../img/background/work_bg.jpg');
+	--bgcarousel1: #0d6f99;
+	--bgcarousel2: #36454d ;
 	--bgcarousel3: #151e25;
 	--corbgborder: #9c9c9c;
 	--corbgbordertime: #fff;
@@ -250,14 +250,80 @@ header.carousel .fill {
 }
 
 .carousel-item-01 {
-	background: var(--bgcarousel1);
+	background-color: var(--bgcarousel1);
+	background-image: url('../img/background/divulplace_bg.jpg');
 }
 .carousel-item-02 {
-	background: var(--bgcarousel2);
+	background-color: var(--bgcarousel2);
+	background-image: url('../img/background/work_bg.jpg');
 }
 .carousel-item-03 {
-	background: var(--bgcarousel3);
+	background-color: var(--bgcarousel3);
+	background-image: url('../img/background/work_02.jpg');
 }
+
+.item-03-info {
+	position: absolute;
+    right: 15%;
+	bottom: 15px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	text-align: center;
+	color: #000;
+}
+.item-03-brand {
+	display: block;
+	height: 400px;
+	background-image: url(../img/logos/imgpsh_divulplace_fullsize.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 75%;
+}
+.item-03-mensagem {
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+	
+@media (min-width: 768px) {	
+	.item-03-info {
+		width: 350px;
+		right: 0%;
+		bottom: 50%;
+		left: 55%;
+		color: #000;
+	}
+	.item-03-brand-i {
+		display: block;
+		width: 150px;
+		height: 130px;
+		background: url(../img/logos/imgpsh_dp_fullsize.png) no-repeat;
+		background-size: 100%;
+		margin: 0px 25%;
+	}
+	.item-03-brand {
+		display: block;
+		height: 90px;
+		background-image: url(../img/logos/imgpsh_divulplace_fullsize.png);
+		background-size: 100%;
+		margin-bottom: 5px;
+	}
+	.item-03-mensagem {
+		text-transform: none;
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {	
+	.item-03-info {
+		left: 65%;
+	}
+}
+
+
 
 .btn-bar {
     margin-top: 5px;
