@@ -509,6 +509,21 @@ header.carousel .fill {
     padding: 0 100px 20px 20px;
   }
 }
+ul.especificacao {
+	color: var(--cortxtnormal);
+	text-align: left;
+	list-style: none;
+}
+ul.especificacao .fa-stack {
+	margin-left: -30px;
+}
+ul.especificacao li {
+	margin: 15px;
+}
+ul.especificacao li  .items{
+	font-weight: 700;
+	color: #fff;
+}
 
 ul.valores {
 	color: var(--cortxtnormal);
@@ -677,7 +692,7 @@ section#more {
  background: var(--bgmore);
 }
 
-section#services, section#about  {
+section#services, section#about , section#portifolio, section#folder, section#card, section#video  {
   background: #2a3a56 url('../img/background/blue_tech_2.png') no-repeat;
   background-position: center;
   color: var(--cortxttitle);
