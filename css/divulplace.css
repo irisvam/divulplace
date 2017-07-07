@@ -556,7 +556,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #204d74;
+  color: var(--cortxtnav);
 }
 h1,
 h2,
@@ -692,7 +692,7 @@ section#more {
  background: var(--bgmore);
 }
 
-section#services, section#about , section#portifolio, section#folder, section#card, section#video  {
+section#services, section#about , section#portifolio, section#folder, section#card, section#video , section#oportunidade, section#oportunidade2 {
   background: #2a3a56 url('../img/background/blue_tech_2.png') no-repeat;
   background-position: center;
   color: var(--cortxttitle);
