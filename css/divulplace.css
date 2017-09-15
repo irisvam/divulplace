@@ -824,3 +824,6 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
+.img-semi-square {
+	border-radius: 15%;
+}
