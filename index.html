@@ -25,17 +25,17 @@
 	</script>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Theme CSS -->
-    <link id="maincss" href="css/divulplace.css" rel="stylesheet">
+    <link id="maincss" href="../css/divulplace.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,7 +49,7 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top affix">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -65,16 +65,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a class="page-scroll" href="#page-top">Inicio</a>
+                        <a class="page-scroll" href="../index.html#page-top">Inicio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Sobre</a>
+                        <a class="page-scroll" href="../index.html#about">Sobre</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Serviços</a>
+                        <a class="page-scroll" href="../index.html#services">Serviços</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contato</a>
+                        <a class="page-scroll" href="../index.html#contact">Contato</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#more">Mais</a>
@@ -85,17 +85,9 @@
 					<li>
 						<button class="btn btn-bar" href="#">Cadastrar</button>
 					</li>
-					<li class="dropdown"> 
-						<a href="#" class="dropdown-toggle" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Ações <span class="caret"></span> </a> 
-						<ul class="dropdown-menu" aria-labelledby="drop1"> 
-							<li><a href="#" onclick="loadCSS('css/divulplace.css')">Modelo 01</a></li>
-							<li><a href="#" onclick="loadCSS('css/divulplace-soft-blue.css')">Modelo 02</a></li> 
-							<li><a href="#" onclick="loadCSS('css/divulplace-hard-blue.css')">Modelo 03</a></li> 
-							<li><a href="#" onclick="loadCSS('css/divulplace-blue.css')">Modelo 04</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="#">Login</a></li> 
-						</ul>
-					</li>
+					<li>
+						<a href="#">Login</a>
+					</li> 
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -103,198 +95,74 @@
         <!-- /.container-fluid -->
     </nav>
 	
-	<!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill carousel-item-01"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill carousel-item-02"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill carousel-item-03">
-					<div class="item-03-info">
-							<span class="item-03-brand"></span>
-						<p class="item-03-mensagem">
-							Transparência.Responsabilade.Inovação.
-						</p>
-					</div>
-				</div>
-                <div class="carousel-caption">
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>
-	
 	<!-- Thought 01 Section -->
 	<section id="thought01" class="thoughts-section">
         <div class="container">
             <div class="row">
 				 <div class="col-lg-12">
 					<blockquote class="blockquote-reverse">
-					  <p>"A única história que vale alguma coisa é a história que fazemos hoje."</p>
-					  <footer>Henry Ford <cite title="Source Title"></cite></footer>
+					  <p>"Quer você acredite que consiga fazer uma coisa ou não, você está certo."</p>
+					  <footer>Henry Ford<cite title="Source Title"></cite></footer>
 					</blockquote>
 				 </div>
 			</div>
 		</div>
 	</section>
 	
-	<!-- About Section -->
-    <section id="about">
+	<!-- Card Section -->
+    <section id="card">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="section-heading">Sobre</h2>
+			<div class="row">
+				<div class="col-lg-6">
+                    <h2 class="section-heading">Cartão de Visitas</h2>
+				</div>
+			</div>
+            <div class="row row-break">
+                <div class="col-lg-12">
+					<h4>Sua Identidade</h4>
+                    <p class="text-muted recuo">
+						Entre nossos outros serviços em seu perfil a DivulPlace disponibiliza também uma ferramenta para criação de seu cartão de visitas, permitindo aumentar seu networking e mostrar a qualidade profissional que deseja passar. Levando em consideração o bom recepcionamento dos clientes quanto a seus negócios.
+					</p>
                 </div>
             </div>
+			
 			<div class="row row-break">
-                <div class="col-md-8">
-					<h4>A Empresa</h4>
-                    <p class="text-muted recuo">
-						A DivulPlace foi formada com o propósito de apresentar serviços diferenciados para que empreendedores, consultores, vendedores e pessoas que possuem um trabalho próprio centralizem a divulgação dos seus produtos e serviços através de nossa plataforma on-line, por ser uma empresa focada em qualidade, respeito, comprometimento e transparência com todos os nossos afiliados.
-					</p>
-					<p class="text-muted recuo">
-						O objetivo da empresa é através de recursos on-line disponibilizar alternativas para nossos afiliados na divulgação dos seus próprios produtos e serviços, alcançando uma quantidade de clientes que somente a própria internet permite atingir.
-					</p>
-                </div>
-                <div class="col-md-4">
+                <div class="col-lg-6">
                     <div class="timeline-image">
-						<img class="img-semi-square img-responsive" src="img/gif_empresa.gif" alt="Empresa">
+						<img class="img-responsive" src="../img/500x300.png" alt="">
+					</div>
+                </div>
+                <div class="col-lg-6">
+					<div class="row row-break">
+						<div class="col-lg-12 text-center">
+							<h4>Mas o que seria um cartão de visitas?</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<p class="text-muted recuo">
+								O cartão de visitas é a principal ferramenta para iniciar as relações de seu networking. Não o considere apenas como uma alternativa para mostrar seus dados para contato, mas sim a forma como através do cartão de visita vai influenciar a impressão que seu receptor tem em relação ao seu negócio.
+							</p>
+							<p class="text-muted recuo">
+								Além de muito prático e de uso universal, um cartão de visistas é indispensável para ser apresentado durante um encontro ou despedida deixando sua marca e identidade, por isso não pode ser negligenciado.
+							</p>
+						</div>
 					</div>
                 </div>
             </div>
+			
 			<div class="row">
                 <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/img_missao.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Missão</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-										Nossa Missão é levar ao sucesso profissional e pessoal para todos os nossos afiliados e divulgadores, através da propensão significativa de seus clientes, disponibilizando serviços de qualidade para que todos consigam conquistar seus objetivos através de nossa empresa.
-									</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/img_visao.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="service-heading">Visão</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-										Ser o principal intermediador entre empreendedores e seus clientes, oferecendo a oportunidade de realizarem seus sonhos.
-									</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/img_valores.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Valores</h4>
-                                </div>
-                                <div class="timeline-body">
-									<p class="text-muted">
-										Proporcionar aos nossos afiliados e divulgadores serviços de qualidade com comprometimento e segurança.
-									</p>
-									<ul class="valores">
-										<li>Transparência e ética – Como alicerce da empresa.</li>
-										<li>Responsabilidade – Em manter todos os serviços sempre disponíveis.</li>
-										<li>Inovação – Sempre em busca de aperfeiçoar os serviços disponibilizados.</li>
-									</ul>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-			<!--
-			<div class="row text-center row-break">
-				<div class="col-md-4">
-					<h4 class="service-heading">Missão</h4>
-				</div>
-				<div class="col-md-4">
-					<div class="timeline-image">
-						<img class="img-circle img-responsive" src="img/400x300.png" alt="">
-					</div>
-				</div>
-				<div class="col-md-4">
-					<p class="text-muted">
-						A DivulPlace tem como Missão levar ao sucesso profissional e pessoal todos os nossos clientes e divulgadores, através da propensão significativa de seus clientes, disponibilizando serviços de qualidade para que todos consigam conquistar seus objetivos através de nossa empresa.
+					<p class="text-muted recuo">
+						Por este motivo a DivulPlace criou uma ferramenta com diversos modelos prontos de cartão de visitas, já com layouts profissionais para que em poucos cliques e de forma simples, consiga personalizar seu cartão de visitas e gerar um arquivo que pode ser utilizado por sua gráfica de preferência.
 					</p>
 				</div>
 			</div>
-			<div class="row text-center row-break">
-				<div class="col-md-4">
-					<div class="timeline-image">
-						<img class="img-circle img-responsive" src="img/400x300.png" alt="">
-					</div>
-				</div>
-				<div class="col-md-4">
-					<h4 class="service-heading">Visão</h4>
-				</div>
-				<div class="col-md-4">
-					<p class="text-muted">
-						Disponibilizar os melhores serviços online para o crescimento de nossos clientes e divulgadores.
-					</p>
+			<div class="row">
+				<div class="col-lg-12 text-right">
+					<a class="btn btn-primary btn-service" href="../index.html#services">Voltar</a>
 				</div>
 			</div>
-			<div class="row text-center">
-				<div class="col-md-4">
-					<h4 class="service-heading">Valores</h4>
-				</div>
-				<div class="col-md-4">
-					<div class="timeline-image">
-						<img class="img-circle img-responsive" src="img/400x300.png" alt="">
-					</div>
-				</div>
-				<div class="col-md-4">
-					<p class="text-muted">
-						Para os nossos Clientes e divulgadores – Serviços de qualidade, comprometimento, transparência e disponibilidade.
-					</p>
-					<ul class="valores">
-						<li>Transparência e ética – Como alicerce da empresa.</li>
-						<li>Responsabilidade – Em manter todos os serviços sempre disponíveis.</li>
-						<li>Inovação – Sempre em busca de aperfeiçoar os serviços disponibilizados</li>
-					</ul>
-				</div>
-			</div>
-			-->
         </div>
     </section>
 	
@@ -304,160 +172,204 @@
             <div class="row">
 				 <div class="col-lg-12">
 					<blockquote>
-					  <p>"Não há domínio ao mesmo tempo maior e mais humilde que o que exercemos sobre nós próprios."</p>
-					  <footer>Leonardo da Vinci <cite title="Source Title"></cite></footer>
+					  <p>"Questionar quem deve ser o chefe, é como discutir quem deve ser o saxofonista num quarteto: evidentemente, quem o sabe tocar.."</p>
+					  <footer>Henry Ford<cite title="Source Title"></cite></footer>
 					</blockquote>
 				 </div>
 			</div>
 		</div>
 	</section>
 	
-	<!-- Services Section -->
-    <section id="services">
+	<!-- Folder e Fyer Section -->
+    <section id="folder">
         <div class="container">
 			<div class="row">
-                <div class="col-lg-6">
-                    <h2 class="section-heading">Serviços</h2>
-                </div>
-            </div>
-            <div class="row text-center row-break">
-                <div class="col-md-4">
-					<div class="timeline-image">
-						<a href="servicos/portifolio/index.html#thought01">
-							<img class="img-responsive" src="img/500x300.png" alt="Mais Informações sobre o Portifólio Digital">
-						</a>
-					</div>
-                    <h4>Portifólio Digital</h4>
-                    <p class="text-muted">
-						Sua página digital personalizada para apresentar os seus produtos e serviços com qualidade e totalmente profissional, customizado por uma equipe especializada com o objetivo de centralizar seus negócios em um único local on-line.
-					</p>
-					<a class="btn btn-primary btn-service" href="servicos/portifolio/index.html#thought01">Mais Informações...</a>
-                </div>
-                <div class="col-md-4">
-					<div class="timeline-image">
-						<a href="servicos/index.html#thought02">
-							<img class="img-responsive" src="img/500x300.png" alt="">
-						</a>
-					</div>
-                    <h4>Folders e Flyers</h4>
-                    <p class="text-muted">
-						Disponibilizamos uma ferramenta on-line com modelos prontos onde poderá em poucos momentos personalizar um folder ou flyer com seus produtos e serviços gerando um arquivo que pode ser utilizado por sua gráfica de preferência.
-					</p>
-					<a class="btn btn-primary btn-service" href="servicos/index.html#thought02">Mais Informações...</a>
-                </div>
-                <div class="col-md-4">
-					<div class="timeline-image">
-						<a href="servicos/index.html#thought01">
-							<img class="img-responsive" src="img/500x300.png" alt="">
-						</a>
-					</div>
-                    <h4>Cartão de Visitas</h4>
-                    <p class="text-muted">
-						O cartão de visita é a principal ferramenta para iniciar as relações de seu networking. Utilizando nossa ferramenta on-line você personaliza seu próprio cartão de visitas e gera um arquivo que pode ser utilizado por sua gráfica de preferência.
-					</p>
-					<a class="btn btn-primary btn-service" href="servicos/index.html#thought01">Mais Informações...</a>
-                </div>
-            </div>
-			<div class="row row-break">
-                <div class="col-lg-12 text-center">
-                    <h2>Oportunidade de Negócio</h2>
-                </div>
-            </div>
-			<div class="row row-break">
-				<div class="col-md-12">
-					<div class="timeline-image">
-						<img class="img-responsive" src="img/900x500.png" alt="">
-					</div>
-                </div>
-			</div>
-			<div class="row text-center row-break">
-                <div class="col-md-4">
-					<span class="fa-stack fa-5x">
-						<i class="fa fa-circle fa-stack-2x text-primary"></i>
-						<i class="fa fa-money fa-stack-1x fa-inverse"></i>
-					</span>
-                </div>
-                <div class="col-md-4">
-                    <p class="text-muted">
-						Seja um de nossos Divulgadores, ao indicar nossos serviços você além de receber comissões por cada cliente cadastrado poderá receber também bônus mensais, trazendo uma renda adicional para você e sua família.
-					</p>
-					<a class="btn btn-primary btn-service" href="servicos/oportunidade/index.html#thought01">Mais Informações...</a>
-                </div>
-                <div class="col-md-4">
-					<span class="fa-stack fa-5x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-comments-o fa-stack-1x fa-inverse"></i>
-                    </span>
-                </div>
-            </div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="timeline-image">
-						<img class="img-responsive" src="img/750x450.png" alt="">
-					</div>
+				<div class="col-lg-6">
+					<h2 class="section-heading">Folders & Fyers</h2>
 				</div>
 			</div>
-		</div>
-	</section>
-
+            <div class="row row-break">
+                <div class="col-lg-12">
+					<h4>Propague</h4>
+                    <p class="text-muted recuo">
+						Este é mais um dos serviços que nos dá DivulPlace disponibilizamos em seu perfil, para que possa divulgar seus produtos e serviços além de seu “Portfólio Digital”.
+					</p>
+					<p class="text-muted recuo">
+						A divulgação através dos Folders e Flyers permite a você empreendedor conseguir prospectar clientes além dos atingidos pela internet, desta forma conseguirá chegar a pessoas que gostam de ler algo, possibilitando que mais pessoas além das que possuem acesso a sua página possam se interessar em seus produtos e serviços, fazendo com que consiga atingir um número maior de clientes a conhecer seus negócios.
+					</p>
+					<p class="text-muted recuo">
+						É por este motivo que a DivulPlace criou a ferramenta de criação de Folders e Flyers, com o objetivo de promover seus negócios de forma profissional, podendo mostrar a qualquer cliente os seus serviços da maneira convencional.
+					</p>
+                </div>
+            </div>
+			
+			<div class="row row-break">
+                <div class="col-lg-4">
+                    <div class="timeline-image">
+						<img class="img-semi-square img-responsive" src="../img/300x300.png" alt="">
+					</div>
+                </div>
+                <div class="col-lg-8">
+					<div class="row row-break">
+						<div class="col-lg-12 text-center">
+							<h4>Flyers</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<p class="text-muted recuo">
+								É uma excelente ferramenta de marketing e uma ótima maneira de caracterizar seu evento, produto ou serviço, principalmente em áreas de alto tráfego.
+							</p>
+							<p class="text-muted recuo">
+								Do inglês, significa "algo que voa". Em marketing, flyer é um impresso promocional, divulgacional com tamanho pequeno, desenvolvido com o objetivo de distribuição em massa, permitindo que de forma simples e rápida muitas pessoas conheçam seu negócio.
+							</p>
+							<p class="text-muted recuo">
+								Sendo considerado uma excelente ferramenta de marketing para divulgação.
+							</p>
+						</div>
+					</div>
+                </div>
+            </div>
+			
+			<div class="row row-break">
+                <div class="col-lg-8">
+					<div class="row row-break">
+						<div class="col-lg-12 text-center">
+							<h4>Folders</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<p class="text-muted recuo">
+								Em inglês significa dobrar, é um material publicitário utilizado para passar uma quantidade considerável de conteúdo, seja para divulgação de produtos, serviços ou apresentação da empresa e afins.
+							</p>
+							<p class="text-muted recuo">
+								O diferencial do folder é que o mesmo possui dobras na vertical ou horizontal permitindo conter uma quantidade maior de informações, tendo como objetivo prender mais a atenção do cliente e garantir que ele tenha mais questões esclarecidas.
+							</p>
+							<p class="text-muted recuo">
+								Em relação ao Flyer, é como se o Flyer fosse um cumprimento e o começo da conversa, enquanto o folder é o assunto em si, por ser mais completo.
+							</p>
+						</div>
+					</div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="timeline-image">
+						<img class="img-semi-square img-responsive" src="../img/300x300.png" alt="">
+					</div>
+                </div>
+            </div>
+			
+			<div class="row row-break">
+				<div class="col-lg-12">
+                    <p class="text-muted recuo">
+						No ambiente de negócios altamente competitivo de hoje, ter um material de qualidade e totalmente profissional se destaca, despertando o interesse dos clientes atuais e potenciais.
+					</p>
+					<p class="text-muted recuo">
+						Por este motivo a DivulPlace criou uma ferramenta que permite aos nossos clientes e divulgadores ter um material de qualidade contendo layouts atraentes que faz seus folders ou flyers se destacarem e consequentemente conseguir mais clientes.
+					</p>
+                </div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-12 text-right">
+					<a class="btn btn-primary btn-service" href="../index.html#services">Voltar</a>
+				</div>
+			</div>
+			
+        </div>
+    </section>
+	
 	<!-- Thought 03 Section -->
 	<section id="thought03" class="thoughts-section">
         <div class="container">
             <div class="row">
 				 <div class="col-lg-12">
 					<blockquote class="blockquote-reverse">
-					  <p>"Há um punhado de homens que conseguem enriquecer simplesmente porque prestam atenção aos pormenores que a maioria despreza."</p>
-					  <footer>Henry Ford <cite title="Source Title"></cite></footer>
+					  <p>"Temos o destino que merecemos. O nosso destino está de acordo com os nossos méritos."</p>
+					  <footer>Albert Einstein<cite title="Source Title"></cite></footer>
 					</blockquote>
 				 </div>
 			</div>
 		</div>
 	</section>
 	
-    <!-- Contact Section -->
-    <section id="contact">
+	<!-- Video Section -->
+    <section id="video">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="section-heading">Contato</h2>
-                </div>
-            </div>
-			<div class="row text-center">
-				<div class="col-lg-12">
-                    <h3 class="section-subheading">Em caso de dúvidas, não hesite em nos enviar uma mensagem.</h3>
+			<div class="row">
+				<div class="col-lg-6">
+                    <h2 class="section-heading">Vídeos</h2>
 				</div>
 			</div>
-            <div class="row">
+            <div class="row row-break">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-offset-3 col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Seu nome *" id="name" required data-validation-required-message="Por favor digite seu nome.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Seu e-mail *" id="email" required data-validation-required-message="Por favor digite seu e-mail.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-						</div>
-						<div class="row">
-                            <div class="col-md-offset-3 col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Sua mensagem *" id="message" required data-validation-required-message="Por favor digite uma mensagem."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
+					<h4>Cursos e Informações</h4>
+                    <p class="text-muted recuo">
+						A DivulPlace pensando em uma alternativa para ajudar os nossos afiliados e divulgadores a conseguirem o sucesso profissional e pessoal, disponibiliza um local em seu perfil contendo cursos que te proporcionarão o conhecimento necessário para que consiga atingir seus objetivos.
+					</p>
+					<p class="text-muted recuo">
+						Todos nossos cursos são feitos por uma equipe especializada e focada em qualidade e em transmitir o máximo de informação possível, de forma clara e objetiva para que todos consigam compreender o que está sendo ensinado sem ter dificuldade, disponibilizando diversos vídeos que podem te ajudar na forma de divulgar seu trabalho, minicursos relacionados e tutoriais que ajudarão a utilizar todas as ferramentas do site.
+					</p>
                 </div>
             </div>
+			
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h4>Especificações</h4>
+				</div>
+			</div>
+			
+			<div class="row row-break">
+                <div class="col-lg-6">
+                    <div class="timeline-image" style="margin-top: 20px;">
+						<img class="img-responsive" src="../img/750x450.png" alt="">
+					</div>
+                </div>
+                <div class="col-lg-6">
+					<div class="row">
+						<div class="col-lg-12">
+							<ul class="especificacao">
+								<li>
+									<span class="fa-stack fa-1x">
+										<i class="fa fa-check fa-stack-1x fa-inverse"></i>
+									</span>
+									<span class="items">Qualidade</span> - Todos os vídeos são preparados com tecnologia de ponta que permita uma boa experiência do usuário.
+								</li>
+								<li>
+									<span class="fa-stack fa-1x">
+										<i class="fa fa-check fa-stack-1x fa-inverse"></i>
+									</span>
+									<span class="items">Minicursos</span> - Nossos cursos são elaborados de forma clara e objetiva com informações necessárias para um bom aprendizado, permitindo ao afiliado ter um entendimento rápido sobre o curso escolhido.
+								</li>
+								<li>
+									<span class="fa-stack fa-1x">
+										<i class="fa fa-check fa-stack-1x fa-inverse"></i>
+									</span>
+									<span class="items">Local de vídeos</span> - A DivulPlace fornece um local especifico de fácil acesso e entendimento dentro do perfil do afiliado, para que possa visualizar todos nossos vídeos disponíveis.
+								</li>
+								<li>
+									<span class="fa-stack fa-1x">
+										<i class="fa fa-check fa-stack-1x fa-inverse"></i>
+									</span>
+									<span class="items">Atualizações </span> - Estamos sempre em busca de fornecer os melhores serviços aos nossos clientes, por isso estaremos atualizando o local de vídeos com novos conteúdos de forma gratuita sem cobrar taxas adicionais.
+								</li>
+								<li>
+									<span class="fa-stack fa-1x">
+										<i class="fa fa-check fa-stack-1x fa-inverse"></i>
+									</span>
+									<span class="items">Dê sua opinião</span> - faça uma solicitação de vídeo ou assunto que passará por nossa análise, podendo ser adicionado um vídeo falando sobre o conteúdo solicitado.
+								</li>
+							</ul>
+						</div>
+					</div>
+                </div>
+            </div>
+			
+			<div class="row">
+				<div class="col-lg-12 text-right">
+					<a class="btn btn-primary btn-service" href="../index.html#services">Voltar</a>
+				</div>
+			</div>
         </div>
     </section>
 	
@@ -467,15 +379,15 @@
             <div class="row">
 				 <div class="col-lg-12">
 					<blockquote>
-					  <p>"Se seus sonhos estiverem nas nuvens, não se preocupe, pois eles estão no lugar certo; agora construa os alicerces."</p>
-					  <footer>Dalai Lama<cite title="Source Title"></cite></footer>
+					  <p>"A personalidade criadora deve pensar e julgar por si mesma, porque o progresso moral da sociedade depende exclusivamente da sua independência.."</p>
+					  <footer>Albert Einstein<cite title="Source Title"></cite></footer>
 					</blockquote>
 				 </div>
 			</div>
 		</div>
 	</section>
-
-    <!-- More Section -->
+	
+	<!-- More Section -->
     <section id="more">
 		<!-- Clients Aside -->
 		<aside class="clients">
@@ -483,22 +395,22 @@
 				<div class="row">
 					<div class="col-md-3 col-sm-6">
 						<a href="#">
-							<img src="img/logos/200x50.jpg" class="img-responsive img-centered" alt="">
+							<img src="../img/logos/200x50.jpg" class="img-responsive img-centered" alt="">
 						</a>
 					</div>
 					<div class="col-md-3 col-sm-6">
 						<a href="#">
-							<img src="img/logos/200x50.jpg" class="img-responsive img-centered" alt="">
+							<img src="../img/logos/200x50.jpg" class="img-responsive img-centered" alt="">
 						</a>
 					</div>
 					<div class="col-md-3 col-sm-6">
 						<a href="#">
-							<img src="img/logos/200x50.jpg" class="img-responsive img-centered" alt="">
+							<img src="../img/logos/200x50.jpg" class="img-responsive img-centered" alt="">
 						</a>
 					</div>
 					<div class="col-md-3 col-sm-6">
 						<a href="#">
-							<img src="img/logos/200x50.jpg" class="img-responsive img-centered" alt="">
+							<img src="../img/logos/200x50.jpg" class="img-responsive img-centered" alt="">
 						</a>
 					</div>
 				</div>
@@ -530,9 +442,11 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Política de Privacidade</a>
+                        <li>
+							<a href="#">Política de Privacidade</a>
                         </li>
-                        <li><a href="#">Termos de Uso</a>
+                        <li>
+							<a href="#">Termos de Uso</a>
                         </li>
                     </ul>
                 </div>
@@ -541,16 +455,13 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery/jquery.js"></script>
+    <script src="../js/jquery/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="../js/bootstrap/bootstrap.min.js"></script>
 	
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
-	
-    <!-- Theme JavaScript -->
-    <script src="js/divulplace.js"></script>
 	
 </body>
 
