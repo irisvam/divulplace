@@ -339,6 +339,7 @@ header.carousel .fill {
 }
 
 .text-muted {
+  text-align: justify;
   color: var(--cortxtnormal);
 }
 .recuo {
@@ -529,9 +530,6 @@ ul.valores {
 	color: var(--cortxtnormal);
 	text-align: left;
 }
-.text-muted {
-  text-align: justify;
-}
 .text-primary {
   color: var(--corbgbtnnav);
 }
@@ -570,6 +568,7 @@ h6 {
 }
 .img-centered {
   margin: 0 auto;
+  padding: 3px;
 }
 .btn-primary {
   color: var(--cortxtnavativo);
