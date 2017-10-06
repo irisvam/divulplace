@@ -141,11 +141,20 @@ a:focus {
 }
 
 body, .modal-header, .modal-footer {
-	background-image: url('../img/portfolio/bg_doodles.png');
+	background-image: url('../img/portfolio/bg_gplaypattern.png');
 }
 .box-item {
 	background-color: rgba(255,255,255,0.8);
 }
 .box-perfil {
-	background-image: url('../img/portfolio/bg_naranjas.png');
+	background-image: url('../img/portfolio/bg_ahoy.jpg');
+}
+.box-perfil .box-item {
+	background-color: rgba(255,255,255,0.6);
+}
+.box-separator {
+	padding: 20px 0px;
+}
+.box-separator img {
+	width: 75%;
 }
