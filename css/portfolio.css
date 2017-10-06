@@ -1,0 +1,151 @@
+section .container .box-item {
+	padding: 20px 0;
+}
+section.portfolio {
+	padding: 0 0;
+}
+.page-header {
+	margin: 20px 0;
+}
+.label {
+	line-height: 3;
+	padding: .5em .8em;
+}
+a:hover,
+a:focus {
+	color: #344869;
+}
+.output-control {
+    padding-top: 6px;
+    display: inline-block;
+}
+.center-image img {
+    margin: 0 auto;
+}
+.img-perfil-portifolio {
+	position: absolute;
+	left: 50%;
+}
+
+.painel-perfil-portifolio {
+	border: 2px solid #00c0ef;
+	background: #fff;
+}
+
+.pessoal-perfil-portifolio h3,
+.pessoal-perfil-portifolio h5 {
+	text-align: center;
+}
+
+.pessoal-perfil-portifolio .box-sobre {
+	margin: 15px;
+	text-align: justify;
+}
+.pessoal-perfil-portifolio .box-sobre p {
+	text-indent: 2em;
+}
+
+.pessoal-perfil-portifolio h3 {
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+	
+.pessoal-perfil-portifolio h5 {
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.social-perfil-portifolio {
+	list-style: none;
+	margin-top: 15px;
+}
+.social-perfil-portifolio li {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	display: block;
+	height: 25px;
+}
+.social-perfil-portifolio li > a {
+	position: relative;
+}
+.social-perfil-portifolio > li > a {
+	padding: 8px 5px 8px 15px;
+	display: block;
+}
+.social-perfil-portifolio > li > a > .fa {
+	font-size: 1.3em;
+	width: 25px;
+}
+.btn-perfil-portifolio {
+	margin: 5px;
+	text-align: right;
+}
+.btn-perfil-portifolio .btn  {
+	width: 100%;
+}
+
+@media (max-width: 991px) {
+	.img-perfil-portifolio {
+		margin-left: -90px;
+		margin-top: -90px;
+	}
+	
+	.painel-perfil-portifolio {
+		margin-top: 100px;
+	}
+	.pessoal-perfil-portifolio h3 {
+		margin-top: 90px;
+	}
+	.social-perfil-portifolio {
+		border-top: 2px solid #ccc;
+		padding-left: 0px;
+		margin: 20px; 
+	}
+	.social-perfil-portifolio > li > a > .fa {
+		float: left;
+	}
+	section.inicial {
+		padding: 25px 0 0 0;
+	}
+}
+
+@media (min-width: 991px) {
+	.img-perfil-portifolio {
+		left: 100px;
+		top: 20px;
+	}
+	.painel-perfil-portifolio {
+		margin-left: 180px;
+		text-align: right;
+	}
+	.pessoal-perfil-portifolio {
+		position: absolute;
+		top: 20px;
+		width: 65%;
+	}
+	.social-perfil-portifolio {
+		display: inline-block;
+		text-align: right;
+	}
+	.btn-perfil-portifolio .btn  {
+		width: 175px;
+		margin-right: 100px;
+	}
+	.pessoal-perfil-portifolio .box-sobre {
+		margin-left: 90px;
+	}
+	section.inicial {
+		padding: 75px 0 0 0;
+	}
+}
+
+body, .modal-header, .modal-footer {
+	background-image: url('../img/portfolio/bg_doodles.png');
+}
+.box-item {
+	background-color: rgba(255,255,255,0.8);
+}
+.box-perfil {
+	background-image: url('../img/portfolio/bg_naranjas.png');
+}
