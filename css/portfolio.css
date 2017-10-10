@@ -141,13 +141,13 @@ a:focus {
 }
 
 body, .modal-header, .modal-footer {
-	background-image: url('../img/portfolio/bg_congruent_pentagon.png');
+	background-image: url('../img/portfolio/bg_geometry2.png');
 }
 .box-item {
 	background-color: rgba(255,255,255,0.8);
 }
 .box-perfil {
-	background-image: url('../img/portfolio/bg_alchemy.gif');
+	background-image: url('../img/portfolio/bg_science.png');
 }
 .box-perfil .box-item {
 	background-color: rgba(255,255,255,0.6);
@@ -175,5 +175,17 @@ body, .modal-header, .modal-footer {
     text-transform: none;
     font-style: italic;
     font-weight: 400;
+	color: #fff;
+}
+.text-oportunidade {
+	color: #25334b;
+	text-align: justify;
+}
+.text-oportunidade-destaque {
+	color: #fff;
+	font-style: italic;
+    font-weight: 700;
+}
+.text-oportunidade-title {
 	color: #fff;
 }
