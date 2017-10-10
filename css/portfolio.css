@@ -1,8 +1,8 @@
 section .container .box-item {
 	padding: 20px 0;
 }
-section.portfolio {
-	padding: 0 0;
+section {
+	padding: 50px 0;
 }
 .page-header {
 	margin: 20px 0;
@@ -141,7 +141,7 @@ a:focus {
 }
 
 body, .modal-header, .modal-footer {
-	background-image: url('../img/portfolio/bg_geometry2.png');
+	background-image: url('../img/portfolio/bg_cubes.png');
 }
 .box-item {
 	background-color: rgba(255,255,255,0.8);
@@ -164,10 +164,8 @@ body, .modal-header, .modal-footer {
     background-position: right -130px;
     background-repeat: no-repeat;
 }
-.msg-title-oportunidade {
-	padding-top: 60px;
-	padding-bottom: 15px;
-	font-size: 20px;
+.title-oportunidade {
+	margin-top: 70px;
 }
 .msg-sub-oportunidade  {
 	font-size: 16px;
@@ -188,4 +186,7 @@ body, .modal-header, .modal-footer {
 }
 .text-oportunidade-title {
 	color: #fff;
+}
+.box-item-oportunidade {
+	background-color: rgba(69,101,129,0.7);
 }
