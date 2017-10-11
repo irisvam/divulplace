@@ -159,7 +159,7 @@ body, .modal-header, .modal-footer {
 	width: 75%;
 }
 .box-divulgacao {
-	background-color: rgba(69,101,129,0.7);
+	background-color: rgba(69,101,129,0.6);
 	background-image: url(../img/logos/faixa_i_1500.png);
     background-position: right -130px;
     background-repeat: no-repeat;
