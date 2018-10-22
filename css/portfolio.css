@@ -141,13 +141,13 @@ a:focus {
 }
 
 body, .modal-header, .modal-footer {
-	background-image: url('../img/portfolio/bg_cubes.png');
+	background-image: url('../img/portfolio/bg_box.png');
 }
 .box-item {
 	background-color: rgba(255,255,255,0.8);
 }
 .box-perfil {
-	background-image: url('../img/portfolio/imagem08.jpg');
+	background-image: url('../img/portfolio/imagem09.jpg');
 	background-position: center;
 }
 .box-perfil .box-item {
