@@ -29,7 +29,7 @@ a:focus {
 
 .painel-perfil-portifolio {
 	border: 2px solid #00c0ef;
-	background: #fff;
+	background: #333;
 }
 
 .pessoal-perfil-portifolio h3,
@@ -141,13 +141,13 @@ a:focus {
 }
 
 body, .modal-header, .modal-footer {
-	background-image: url('../img/portfolio/bg_concrete_blue.png');
+	background-image: url('../img/portfolio/bg_concrete_blue_light.png');
 }
 .box-item {
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(0,0,0,0.6);
 }
 .box-perfil {
-	background-image: url('../img/portfolio/imagem10.jpg');
+	background-image: url('../img/portfolio/imagem11.jpg');
 	background-position: center;
 }
 .box-perfil .box-item {
