@@ -144,7 +144,7 @@ body, .modal-header, .modal-footer {
 	background-image: url('../img/portfolio/bg_concrete_blue_light.png');
 }
 .box-item {
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.4);
 }
 .box-perfil {
 	background-image: url('../img/portfolio/imagem11.jpg');
