@@ -177,7 +177,8 @@ body, .modal-header, .modal-footer {
 	color: #fff;
 }
 .text-oportunidade {
-	color: #25334b;
+	color: #d6d6d6;
+	/*color: #25334b;*/
 	text-align: justify;
 }
 .text-oportunidade-destaque {
