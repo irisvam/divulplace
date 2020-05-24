@@ -251,11 +251,11 @@ header.carousel .fill {
 
 .carousel-item-01 {
 	background-color: var(--bgcarousel1);
-	background-image: url('../img/background/divulplace_bg.jpg');
+	background-image: url('../img/background/work_04.jpg');
 }
 .carousel-item-02 {
 	background-color: var(--bgcarousel2);
-	background-image: url('../img/background/work_04.jpg');
+	background-image: url('../img/background/work_05.jpg');
 }
 .carousel-item-03 {
 	background-color: var(--bgcarousel3);
