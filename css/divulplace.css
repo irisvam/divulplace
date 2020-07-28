@@ -191,6 +191,9 @@ body {
     margin-left: -20px;
 	margin-top: 5px;
   }
+  .carousel-item-01 {
+    background-image: url('../img/background/work_04.jpg');
+  }
 }
 
 @media (min-width: 992px) {
@@ -251,7 +254,7 @@ header.carousel .fill {
 
 .carousel-item-01 {
 	background-color: var(--bgcarousel1);
-	background-image: url('../img/background/work_04.jpg');
+	background-image: url('../img/background/work_04_cell.jpg');
 }
 .carousel-item-02 {
 	background-color: var(--bgcarousel2);
