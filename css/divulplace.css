@@ -109,7 +109,7 @@ body {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     border: none;
-	font-size: 10px;
+    font-size: 8px;
   }
   .navbar-custom .navbar-brand {
     font-size: 2em;
