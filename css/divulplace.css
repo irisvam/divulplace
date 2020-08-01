@@ -104,7 +104,7 @@ body {
 @media (min-width: 768px) {
   .navbar-custom {
 	background-image: url('../img/logos/faixa_1000.png');
-    padding: 24px 0;
+    padding: 10px 0;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -124,15 +124,15 @@ body {
     border-radius: 3px;
   }
   .navbar-custom .navbar-brand span.divulplace-brand {
-	margin-top: -25px;
+	margin-top: -10px;
 	display: block;
-	width: 315px;
-	height: 99px;
+	width: 222px;
+	height: 70px;
 	background: url('../img/logos/divulplace_white.png') no-repeat;
 	background-size: 100%;
   }
   .navbar-nav {
-    margin-left: -20px;
+    margin-top: 5px;
   }
   .navbar-right {
     border-top: none;
@@ -143,11 +143,15 @@ body {
 	background-image: url('../img/logos/faixa_1250.png');
     font-size: 14px;
   }
-  .navbar-right {
-    margin-left: -100px;
-  }
   .navbar-custom  .navbar-nav>li>a {
     padding: 15px;
+  }
+  .navbar-nav {
+  	margin-left: 50px;
+    margin-top: 0px;
+  }
+  .navbar-right {
+    margin-left: 0px;
   }
 }
 @media (min-width: 1200px) {
@@ -155,7 +159,10 @@ body {
 	background-image: url('../img/logos/faixa_1600.png');
   }
   .navbar-nav {
-    margin-left: 70px;
+    margin-left: 120px;
+  }
+  .navbar-right {
+    margin-left: 50px;
   }
 }
 @media (min-width: 1600px) {
@@ -188,7 +195,7 @@ body {
 	background-size: 100%;
   }
   .navbar-custom.affix  .navbar-nav {
-    margin-left: -20px;
+    
 	margin-top: 5px;
   }
 }
@@ -251,11 +258,11 @@ header.carousel .fill {
 
 .carousel-item-01 {
 	background-color: var(--bgcarousel1);
-	background-image: url('../img/background/work_04_cell.jpg');
+	background-image: url('../img/background/slide_1_cell.jpg');
 }
 .carousel-item-02 {
 	background-color: var(--bgcarousel2);
-	background-image: url('../img/background/work_05.jpg');
+	background-image: url('../img/background/slide_2_cell.jpg');
 }
 .carousel-item-03 {
 	background-color: var(--bgcarousel3);
@@ -264,6 +271,12 @@ header.carousel .fill {
 
 @media (min-width: 768px) {
   .carousel-item-01 {
+    background-image: url('../img/background/slide_1.jpg');
+  }
+  .carousel-item-02 {
+    background-image: url('../img/background/slide_2.jpg');
+  }
+  .carousel-item-03 {
     background-image: url('../img/background/work_04.jpg');
   }
 }
