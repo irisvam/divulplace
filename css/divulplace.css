@@ -266,7 +266,7 @@ header.carousel .fill {
 }
 .carousel-item-03 {
 	background-color: var(--bgcarousel3);
-	background-image: url('../img/background/slide_3_cell.jpg');
+	background-image: url('../img/background/slide_3_cell.png');
 }
 
 @media (min-width: 768px) {
