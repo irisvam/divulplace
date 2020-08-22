@@ -282,7 +282,7 @@ header.carousel .fill {
 }
 
 .item-03-info {
-	position: absolute;
+	/*position: absolute;*/
     right: 15%;
 	bottom: 15px;
     left: 15%;
@@ -291,6 +291,11 @@ header.carousel .fill {
     padding-bottom: 20px;
 	text-align: center;
 	color: #000;
+}
+a span.btn-03-oportunidade {
+	display: block;
+	width: 10000px;
+	height: 180px;
 }
 .item-03-brand {
 	display: block;
@@ -310,10 +315,8 @@ header.carousel .fill {
 @media (min-width: 768px) {	
 	.item-03-info {
 		width: 350px;
-		right: 0%;
 		bottom: 50%;
 		left: 55%;
-		color: #fff;
 	}
 	.item-03-brand-i {
 		display: block;
