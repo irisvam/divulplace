@@ -266,7 +266,7 @@ header.carousel .fill {
 }
 .carousel-item-03 {
 	background-color: var(--bgcarousel3);
-	background-image: url('../img/background/work_02.jpg');
+	background-image: url('../img/background/slide_3_cell.jpg');
 }
 
 @media (min-width: 768px) {
@@ -277,7 +277,7 @@ header.carousel .fill {
     background-image: url('../img/background/slide_2.jpg');
   }
   .carousel-item-03 {
-    background-image: url('../img/background/work_04.jpg');
+    background-image: url('../img/background/slide_3.jpg');
   }
 }
 
@@ -313,7 +313,7 @@ header.carousel .fill {
 		right: 0%;
 		bottom: 50%;
 		left: 55%;
-		color: #000;
+		color: #fff;
 	}
 	.item-03-brand-i {
 		display: block;
